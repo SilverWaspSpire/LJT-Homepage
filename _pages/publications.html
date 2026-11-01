@@ -3,17 +3,15 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+excerpt: "Publications by Junteng Liu in natural language processing and machine learning."
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+<p>You can also find my publications on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</p>
+
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
@@ -31,6 +29,3 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-
