@@ -17,6 +17,10 @@ I am currently a Research Intern at MINIMAX (February 2025–Present).
   - HKUST NLP Group; supervisor: Prof. Junxian He.
 - **B.Eng.**, Shanghai Jiao Tong University, 2020–2024.
   - Graduated in June 2024.
+  - Previously advised by Prof. Junxian He during undergraduate studies at SJTU.
+
+### Honors & Awards
+
 - **Zhiyuan Honor Scholarship**, Shanghai Jiao Tong University.
 
 ## Research Experience
